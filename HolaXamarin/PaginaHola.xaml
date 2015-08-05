@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HolaXamarin.PaginaHola">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="¿Cómo te llamas?"/>
+			<Entry x:Name="txtNombre"/>
+			<Button x:Name="btnSaludar" Text="¡Salúdame!" Clicked="btnSaludar_Clicked"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
